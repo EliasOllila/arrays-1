@@ -12,13 +12,13 @@ public class Main {
         System.out.println(sum);
 
         //hw3
-        int[] values={-3, 2, 5, 4, 7};
+        int[] Values={-3, 2, 5, 4, 7};
         int N=1;
         boolean RESULT=true;
 
         while(RESULT=true && N<5)
         {
-            if(values[N]<values[N-1])
+            if(Values[N]<Values[N-1])
                 RESULT=false;
             N++;
         }
